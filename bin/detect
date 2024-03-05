@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Always succeed and apply this buildpack
+exit 0

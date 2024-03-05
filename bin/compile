@@ -1,0 +1,13 @@
+#!/bin/sh
+
+BUILD_DIR=$1
+
+# Change to the build directory
+cd $BUILD_DIR
+
+# Download and install pgFormatter
+echo "-----> Installing pgFormatter"
+git clone https://github.com/darold/pgFormatter.git
+cd pgFormatter
+perl Makefile.PL
+make && make install
