@@ -8,8 +8,8 @@ cd $BUILD_DIR
 # Download and install pgFormatter
 echo "-----> Installing pgFormatter"
 git clone https://github.com/darold/pgFormatter.git
-cd pgFormatter
-perl Makefile.PL INSTALLDIRS=$BUILD_DIR/vendor
-make && make install
-export PATH=$BUILD_DIR/vendor/bin:$PATH
+# cd pgFormatter
+# perl Makefile.PL INSTALLDIRS=$BUILD_DIR/vendor
+# make && make install
+# export PATH=$BUILD_DIR/vendor/bin:$PATH
 
