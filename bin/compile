@@ -4,4 +4,4 @@ BUILD_DIR=$1
 
 # Download and install pgFormatter
 echo "-----> Installing pgFormatter"
-git clone https://github.com/darold/pgFormatter.git $BUILD_DIR/vendor
+git clone https://github.com/darold/pgFormatter.git $BUILD_DIR/vendor/pgFormatter
